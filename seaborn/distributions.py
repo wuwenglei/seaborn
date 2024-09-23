@@ -366,6 +366,9 @@ class _DistributionPlotter(VectorPlotter):
             # Store the density for this level
             key = tuple(sub_vars.items())
             densities[key] = pd.Series(density, index=support)
+            
+        print('_compute_univariate_density.densities:')
+        print(densities)
 
         return densities
 
