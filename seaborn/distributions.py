@@ -1590,6 +1590,7 @@ def kdeplot(
     legend=True, cbar=False, cbar_ax=None, cbar_kws=None, ax=None,
     **kwargs,
 ):
+    print('begining of kdeplot')
 
     # --- Start with backwards compatability for versions < 0.11.0 ----------------
 
